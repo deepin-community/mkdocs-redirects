@@ -1,5 +1,79 @@
-template-repository (1.0-1) unstable; urgency=medium
+mkdocs-redirects (1.2.1-1) unstable; urgency=medium
 
-  * Initial release
+  * [a4a2f70] New upstream version 1.2.1
+  * [570377d] d/control: Update Standards-Version to 4.6.2
+    No further changes needed.
+  * [d806e61] d/*: Update new project home
+  * [58cd888] d/copyright: Update copyright information and data
+  * [21da503] d/gbp.conf: Drop non-needed branch setting
+  * [b65a6e4] autopkgtest: Use bash within Shebang
+  * [43a99f0] d/{control,rules}: Move to dh-sequence-python3
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 29 Jul 2023 08:43:41 +0200
+
+mkdocs-redirects (1.2.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * [818cc0e] Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 16 Oct 2022 23:47:33 +0100
+
+mkdocs-redirects (1.2.0-1) unstable; urgency=medium
+
+  * [17feacb] New upstream version 1.2.0
+  * [452b790] d/control: Add setuptools to Build-Depends
+    (Closes: #1020026)
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 24 Sep 2022 06:38:19 +0200
+
+mkdocs-redirects (1.1.0-1) unstable; urgency=medium
+
+  * [5c8a12f] New upstream version 1.1.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 26 Aug 2022 20:34:11 +0200
+
+mkdocs-redirects (1.0.6-1) unstable; urgency=medium
+
+  * [c136d6f] New upstream version 1.0.6
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 15 Aug 2022 10:35:55 +0200
+
+mkdocs-redirects (1.0.5-1) unstable; urgency=medium
+
+  * [8ceaecc] d/gbp.conf: Sign tags automatically
+  * [3845a36] New upstream version 1.0.5
+  * [355cbd7] d/control: Update Standards-Version to 4.6.1
+    No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 07 Aug 2022 14:33:45 +0200
+
+mkdocs-redirects (1.0.4-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * [608e51d] Remove constraints unnecessary since buster
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 26 May 2022 17:26:54 +0100
+
+mkdocs-redirects (1.0.4-1) unstable; urgency=medium
+
+  * [cf60e92] New upstream version 1.0.4
+  * [6b2c701] d/copyright: Update copyright years and holders
+  * [5b9f83b] d/control: Add additional deps for internal testing
+  * [6938049] d/rules: Turn on internal test suite run
+  * [215ce95] autopkgtest: Adding the upstream tests as autopkgtest
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 02 Apr 2022 11:14:06 +0200
+
+mkdocs-redirects (1.0.1-2) unstable; urgency=medium
+
+  * Source only upload
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 01 Mar 2022 07:32:37 +0100
+
+mkdocs-redirects (1.0.1-1) unstable; urgency=medium
+
+  * [5e2ff6a] New upstream version 1.0.1
+  * [35380aa] First and basic Debianization
+    (Closes: #1006480)
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 26 Feb 2022 08:36:52 +0100
